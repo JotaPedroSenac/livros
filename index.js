@@ -7,12 +7,11 @@ const { excluirAlunos } = require("./alunos/excluirAluno");
 
 
 
-listarAluno();
-criarAluno("0001", "joaozinho", "joao@email", "8499999-9999");
-criarAluno("0002", "Mariazinha", "maria@email", "8499999-9998");
-criarAluno("0003", "Valtemir", "valtemir@email", "8499999-9997");
-listarAluno();
-editarAluno("0001", "joaozão", "joaozao@email", "8499999-9990");
+// criarAluno("0001", "joaozinho", "joaozinho@email.com", "8499999-9999");
+criarAluno("0002", "Mariazinha", "maria@email.com", "8499999-9998");
+// criarAluno("0003", "Valtemir", "valtemir@email.com", "8499999-9997");
+// // listarAluno();
+// editarAluno("0001", "joaozão", "joaozao@email.com", "8499999-9990");
 // listarAluno();
 excluirAlunos("0002");
-listarAluno();
+// listarAluno();

@@ -1,7 +1,14 @@
 const { alunos } = require("./aluno");
+var validator = require('validator');
 
 function excluirAlunos(matricula) {
     try {
+
+        if(validator.isEmpty(matricula)){
+            console.error("A matricula precisa estar preenchida")
+            return;
+        }
+
         const indice = alunos.findIndex(aluno => 
             aluno.matricula === matricula);
         
